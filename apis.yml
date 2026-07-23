@@ -1,8 +1,18 @@
 aid: archive
 name: Archive
-description: 'Archive is a company surfaced as a portfolio company of bain-capital-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Archive is a brand-owned resale and recommerce technology platform, founded in
+  2021, that lets forward-thinking global brands launch and scale profitable,
+  sustainable resale businesses. Its circularity platform spans branded
+  recommerce storefronts, peer-to-peer marketplaces, trade-in (online and
+  in-store), take-back, warranty and repair, a resale warehouse management
+  system (WMS), a unified product catalog, a dynamic pricing engine, and
+  analytics — reclaiming supply through returns, past-season inventory, consumer
+  listings, and in-store trade-ins. Archive serves 50+ brands across 10+
+  countries, including The North Face, lululemon, Peloton, New Balance, Dr.
+  Martens, Fjällräven, Oscar de la Renta, Hanna Andersson, and Faherty. The
+  company is backed by Bain Capital Ventures and Lightspeed Venture Partners
+  (with Energize Capital leading its $30M Series B), and has raised $54M to date.
 url: https://raw.githubusercontent.com/api-evangelist/archive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +21,32 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/695bccc663f332811d2c2853/6980d51fe88a1f91b6e6d76b_og-home.png
 tags:
 - Company
 - Commerce
+- Resale
+- Recommerce
+- Circularity
+- Sustainability
+- Retail
+- Ecommerce
+- Trade-In
+- Warehouse Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.archiveresale.com/
+- type: Blog
+  url: https://www.archiveresale.com/resources/blog
+- type: Support
+  url: https://www.archiveresale.com/contact
+- type: TermsOfService
+  url: https://www.archiveresale.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.archiveresale.com/legal/privacy
+- type: StatusPage
+  url: https://status.archiveresale.com/
+- type: Compliance
+  url: https://www.archiveresale.com/legal/security
+- type: Lifecycle
+  url: lifecycle/archive-lifecycle.yml
+- type: Conformance
+  url: conformance/archive-conformance.yml
+- type: DomainSecurity
+  url: security/archive-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/archiveresale/
+- type: X
+  url: https://x.com/archiveresale
+- type: Instagram
+  url: https://www.instagram.com/archiveresaleco/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.archiveresale.com/
+summary: >-
+  Archive operates a hosted Atlassian Statuspage for platform availability. No
+  public API versioning or deprecation policy is published (Archive is a B2B
+  brand-owned resale platform with no public developer API surface), so no
+  versioning scheme, deprecation policy, or deprecated operations are recorded.
+status_page: https://status.archiveresale.com/
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

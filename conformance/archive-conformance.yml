@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.archiveresale.com/legal/security
+docs: https://www.archiveresale.com/legal/security
+summary: >-
+  Archive publishes a security page documenting a SOC 2 Type 2 attestation and a
+  set of security controls. No public API / OpenAPI is published, so cross-cutting
+  API standards (OAuth2, OIDC, RFC 9457, FHIR, SCIM, OData, etc.) are not asserted
+  here.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    "Archive Resale is SOC II Type 2 compliant as of Summer 2024" published on
+    https://www.archiveresale.com/legal/security
+- id: encryption-at-rest
+  conforms: true
+  evidence: AES-256 encryption at rest stated on the security page
+- id: encryption-in-transit
+  conforms: true
+  evidence: TLS 1.2+ in transit stated on the security page; TLSv1.3 observed on www.archiveresale.com
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: hipaa
+  conforms: false
+- id: fedramp
+  conforms: false
